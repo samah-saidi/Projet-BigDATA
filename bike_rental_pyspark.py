@@ -11,7 +11,6 @@ spark = SparkSession.builder \
     .appName("Analyse Avancée Location Vélos") \
     .getOrCreate()
 
-# Réduction de la verbosité des logs
 spark.sparkContext.setLogLevel("WARN")
 
 print("Session Spark créée avec succès!")
@@ -58,7 +57,6 @@ try:
     print("\nAnalyse descriptive des données numériques:")
     df.select(['temp', 'humidity', 'windspeed', 'registered', 'count']).describe().show()
     
-    # Conversion des types de colonnes
     df = df.withColumn("season", df["season"].cast("double"))
     df = df.withColumn("temp", df["temp"].cast("double"))
     df = df.withColumn("humidity", df["humidity"].cast("double"))
