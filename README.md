@@ -12,18 +12,31 @@ Bienvenue dans ce projet Big Data où nous analysons les locations de vélos en 
 ## 🗂️ Arborescence
 
 projetbigdata/
+
 ├── Bike.csv                    # 📄 Jeu de données
+
 ├── bike_rental_pyspark.py      #  Script PySpark
+
 ├── images/                     # 📸 Dossier pour tes captures d'écran
+
 │   ├── pyspark_test1.png
+
 │   ├── pyspark_test2.png
+
 │   ├── img1.png
+
 │   ├── img2.png
+
 │   ├── img3.png
+
 │   ├── img4.png
+
 │   └── img5.png
+
 ├── docker-compose.yml
+
 ├── Dockerfile.spark
+
 └── README.md                   # 📖 Documentation du projet
 
 ## 📊 Données utilisées
@@ -62,15 +75,17 @@ docker-compose up -d
 ### 2️⃣ Démarrage de l'Environnement
 #### Lancement de l'Environnement
 ![Lancement de l'Environnement](images/img3.png)
+
 *Démarrage des conteneurs Docker et initialisation des services*
 
 ### 3️⃣ Tests PySpark
 #### Test PySpark 1
-![Test PySpark 1](images/pyspark_test1.png)
+![Test PySpark 1](images/pyspark_test1.jpg)
+
 *Premier test de l'environnement PySpark*
 
 #### Test PySpark 2
-![Test PySpark 2](images/pyspark_test2.png)
+![Test PySpark 2](images/pyspark_test2.jpg)
 *Vérification de la configuration PySpark*
 
 ### 4️⃣ Interface et Monitoring
